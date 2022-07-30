@@ -46,8 +46,6 @@ const SearchForm = () => {
   const [dateRange, setDateRange] = useState([new Date(), new Date()]);
   const [startDate, endDate] = dateRange;
 
-
-
   const [departValue, setDepartValue] = useState([]);
   const [returnValue, setReturnValue] = useState([]);
   const [searchInputText, setSearchInputText] = useState("");
@@ -59,8 +57,8 @@ const SearchForm = () => {
       ...searchInfoRoute,
       origin: inputReturnValue.iata,
       destination: inputDepartValue.iata,
-    })
-  }
+    });
+  };
   const handleSubmit = (e) => {
     console.log(searchInfo);
     console.log(passengerCount);
@@ -281,8 +279,8 @@ const SearchForm = () => {
                                         setSearchInputText("");
                                         setSearchInfoRoute({
                                           ...searchInfoRoute,
-                                          origin: item.iata
-                                        })
+                                          origin: item.iata,
+                                        });
                                       }}
                                     >
                                       <div
@@ -388,8 +386,8 @@ const SearchForm = () => {
                                         setSearchInputText("");
                                         setSearchInfoRoute({
                                           ...searchInfoRoute,
-                                          destination: item.iata
-                                        })
+                                          destination: item.iata,
+                                        });
                                       }}
                                     >
                                       <div
@@ -466,8 +464,8 @@ const SearchForm = () => {
                                   setDepartDate(date);
                                   setSearchInfoRoute({
                                     ...searchInfoRoute,
-                                    departureDate: date
-                                  })
+                                    departureDate: date,
+                                  });
                                 }}
                                 minDate={new Date()}
                                 showDisabledMonthNavigation
