@@ -1,0 +1,13 @@
+  .dropdown-toggle::after{
+    color : rgb(0, 0, 0);
+  }
+
+  .navbar-bg-color{
+    background-color: #ffffff;
+  }
+
+  nav.scrolled {
+    background: #ffffff;
+  }
+
+  .brightness { filter: brightness(1.25); }
