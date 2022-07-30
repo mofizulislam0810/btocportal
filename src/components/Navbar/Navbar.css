@@ -11,3 +11,9 @@
   }
 
   .brightness { filter: brightness(1.25); }
+
+  @media screen and (max-width: 980px) {
+    .navbar-collapse {
+      background-color: white;
+    }
+  }

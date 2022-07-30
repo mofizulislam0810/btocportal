@@ -84,14 +84,14 @@ const Footer = () => {
                 className="me-2"
               >
                 <img
-                  className="apple border rounded"
+                  className="apple border rounded img-fluid"
                   src="https://sharetrip.net/assets/images/playStore.png"
                   alt="Download on the App Store"
                 />
               </a>
               <a href="https://www.linkedin.com/company/triplover/about/?viewAsMember=true">
                 <img
-                  className="android border rounded"
+                  className="android border rounded img-fluid"
                   alt="Get it on Google Play"
                   src="https://sharetrip.net/assets/images/appStore.png"
                 />

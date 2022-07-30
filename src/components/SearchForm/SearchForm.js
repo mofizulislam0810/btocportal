@@ -90,8 +90,7 @@ const SearchForm = () => {
         <div className="container pt-5">
           <div className="row pt-5">
             <div
-              className="col-lg-12 col-12 pt-5 mx-auto "
-              style={{ width: "50%" }}
+              className="col-lg-12 col-12 pt-5 mx-auto form-header-panal"
             >
               <div
                 className="d-flex px-0 justify-content-between"
@@ -149,7 +148,7 @@ const SearchForm = () => {
               <div id="searcg-form-bg">
                 <form onSubmit={handleSubmit}>
                   <div className="row">
-                    <div className="col-lg-12 pb-1">
+                    <div className="col-lg-12 d-flex justify-content-center pb-1">
                       <div className="form-check form-check-inline">
                         <input
                           className="form-check-input me-1 radio-type-btn"
