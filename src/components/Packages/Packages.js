@@ -80,7 +80,7 @@ const Packages = () => {
       <section>
         <div id="cards_landscape_wrap-2">
           <div className="container">
-            <div className="">
+
               <Carousel
                 additionalTransfrom={0}
                 arrows
@@ -136,7 +136,7 @@ const Packages = () => {
               >
                 {packageList.map((item, index) => {
                   return (
-                    <div className="px-2 mb-5" key={index}>
+                    <div className="mx-2 mb-5 bg-white" key={index}>
                       <Link to={`/packagedetails/${item.packID}`}>
                         <div className="card-flyer">
                           <div className="text-box">
@@ -177,7 +177,6 @@ const Packages = () => {
                   );
                 })}
               </Carousel>
-            </div>
           </div>
         </div>
       </section>
